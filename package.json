@@ -1,0 +1,22 @@
+{
+  "name": "a02-zizhou1518",
+  "version": "1.0.0",
+  "description": "assignment 2",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3-comp426/a02-zizhou1518.git"
+  },
+  "author": "Zizhou Lu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jdmar3-comp426/a02-zizhou1518/issues"
+  },
+  "homepage": "https://github.com/jdmar3-comp426/a02-zizhou1518#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
