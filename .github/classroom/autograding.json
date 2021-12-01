@@ -53,7 +53,7 @@
     {
       "name": "You did not add any other lines to index.html",
       "setup": "SHELL=/bin/bash",
-      "run": "NLIN=$(cat index.html | wc -l) && if [ \"$NLIN\" -eq \"230\" ]; then echo \"TRUE\"; fi",
+      "run": "NLIN=$(grep -c '^' index.html) && if [ \"$NLIN\" -eq \"230\" ]; then echo \"TRUE\"; fi",
       "input": "",
       "output": "TRUE",
       "comparison": "exact",
